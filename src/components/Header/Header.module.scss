@@ -1,0 +1,87 @@
+@import '../../styles/variables';
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background-color: #fff;
+  box-shadow: 0 10px 10px -5px;
+  :global {
+    .ant-layout-header {
+      background-color: var(--cl-grey-94);
+      border-bottom: 1px solid var(--cl-grey-85);
+      color: var(--cl-grey-0);
+      height: 56px;
+      padding: 12px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .ant-layout-header {
+      line-height: 56px;
+    }
+  }
+}
+
+.headerContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: auto;
+
+  div {
+    display: flex;
+    cursor: pointer;
+  }
+}
+
+.headerProfile {
+  position: relative;
+  display: flex;
+  height: max-content;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  .userInfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    span {
+      line-height: 1rem;
+      margin-bottom: 0.2rem;
+      &:last-child {
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $primary-color;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.menuProfile {
+  position: relative;
+  min-width: 10rem;
+  border-radius: 0.5rem;
+  .menuItemContent {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      margin-right: 0.5rem;
+    }
+  }
+}

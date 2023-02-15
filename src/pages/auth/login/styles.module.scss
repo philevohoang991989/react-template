@@ -1,0 +1,51 @@
+@import 'styles/variables';
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  .formWrapper {
+    align-items: center;
+    background-color: #fff;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 0 10px 10px -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    position: relative;
+    width: 30rem;
+  }
+  .loginContent {
+    padding: 1rem;
+    width: 100%;
+  }
+  .btnChooseLang {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    &:hover {
+      background-color: #fff;
+    }
+    :global {
+      .ant-segmented:not(.ant-segmented-disabled):hover,
+      .ant-segmented:not(.ant-segmented-disabled):focus {
+        background-color: #fff !important;
+      }
+      .ant-segmented-group {
+        .ant-segmented-item {
+          color: #000;
+        }
+        .ant-segmented-item-selected {
+          border-radius: 3rem;
+          background-color: $primary-color;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

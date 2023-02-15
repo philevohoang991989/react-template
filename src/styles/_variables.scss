@@ -1,0 +1,142 @@
+//Colors variables
+// Language: scss
+// Path: src\sass\_variables.scss
+$primary-color: #00bca7;
+$secondary-color: #0054a6;
+$controller-color: #687787;
+$primary-light-color: #ffffff;
+$primary-dark-color: #000000;
+$menu-font-color: #687787;
+$color-404-error: #a8d2f0;
+$menu-item-selected: rgba(251, 67, 144, 0.1);
+$menu-item-selected-font: rgba(251, 67, 144, 1);
+$primary-background-color: #f4f6f8;
+$secondary-background-color: rgba(161, 161, 161, 0.1);
+$noti-hoved-color: #dff2ff;
+$date-text-color: rgba(17, 40, 67, 0.5);
+$title-text-color: #0b7cc3;
+$label-text-color: #8181a5;
+$color-shadow: rgba(0, 0, 0, 0.1);
+
+$primary-light-background-color: #f3f8fe;
+$gray-background-color: #dee2e6;
+$gray-border-color: #ced4da;
+$border-input-color: #bfcdfb;
+$error-color: #dc3545;
+$error-border-color: #ffc3c3;
+$success-color: #099428;
+$success-border-color: #47af5e;
+$process-color: #0d6efd;
+$process-border-color: #e7f1fd;
+$wait-color: #e9ecef;
+$wait-border-color: #c3dbff;
+$color-username: #1b1d21;
+$title-section-color: #112843;
+$nav-carousel-icon-color: #0015d0;
+
+$title-agent-info-color: #0a73f0;
+$agent-info-background-color: #f3f8fe;
+
+// login
+$login-primary-color: #00bca7;
+$reset-password-unverify: #b4c2cb;
+$reset-password-verify: #0b2c4a;
+$reset-password-verify-icon: #34c759;
+
+// Layout
+$background-site-menu-color: #0b2c4a;
+$background-content-color: #fafafa;
+$background-sub-title-color: rgba(0, 122, 255, 0.1);
+$background-select-box-color: #e5e8ee;
+$text-menu-color: #9cacba;
+$text-user-role-color: #007aff;
+$text-action-cancel-color: #ff3b30;
+$text-modal-title-color: #242424;
+$text-cancel-color: #5c7286;
+$button-cancel-color: rgba(92, 114, 134, 0.1);
+$color-icon-eye-active: #292d32;
+// font size
+$font-size-default: 10px;
+$font-size-title: 25px;
+
+// status
+$text-waiting-color: #1e77d8;
+$text-processing-color: #ea9121;
+$text-waiting-approval-color: #288e3b;
+$text-discrepant-color: rgba(255, 59, 48, 1);
+
+$background-waiting-color: rgba(62, 121, 185, 0.1);
+$background-processing-color: #f5f2ef;
+$background-waiting-approval-color: rgba(40, 142, 59, 0.1);
+$background-discrepant-color: rgba(255, 59, 48, 0.1);
+$background-title: #e1f4f2;
+$background-tag: #f0f6fa;
+$bg-processing: rgba(153, 126, 92, 0.1);
+
+$background-btn-cancel: rgba(92, 114, 134, 0.2);
+$background-btn-done: rgba(0, 188, 167, 0.4);
+// upload document
+$background-document-info-color: #f0faf9;
+$text-document-info-title-color: #5c7286;
+$text-document-info-content-color: #00bca7;
+$background-image-color: rgba(0, 0, 0, 0.2);
+$border-document-type-color: #dbdee5;
+$background-cancel-color: rgba(92, 114, 134, 0.1);
+$background-selected-item-color: #414141;
+$text-unselect-item-color: #808080;
+$text-cancel-color: rgba(92, 114, 134, 1);
+$background-un-selected-color: rgba(156, 172, 186, 0.1);
+$text-uploading-color: rgba(0, 122, 255, 1);
+$text-success-color: rgba(52, 199, 89, 1);
+$text-fail-color: #f0534a;
+$bg-fail: rgba(240, 83, 74, 0.1);
+// screen size
+$mobile-screen-size: 576px;
+$tablet-screen-size: 768px;
+$large-tablet-screen-size: 961px;
+$desktop-screen-size: 1024px;
+$switch-color: #27ae60;
+$rule-title-color: rgba(11, 44, 74, 1);
+//Responsive variables
+// Language: scss
+// Path: src\sass\_variables.scss
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$large-desktop-width: 1440px;
+
+// table
+$header-text-color: #9cacba;
+
+// status color
+$missing-color: #ff9500;
+$mismatch-color: #ff3b30;
+$matching-color: #288e3b;
+
+$btn-red: #ff0000;
+$btn-mismatch-color: rgba(255, 59, 48, 0.1);
+$btn-matching-color: rgba(40, 142, 59, 0.1);
+$btn-missing-color: rgba(255, 149, 0, 0.1);
+$btn-waiting-review: rgba(170, 170, 170, 0.1);
+
+$btn-data-extracting: #17bcff;
+$bg-data-extracting: rgba(23, 188, 255, 0.1);
+
+$bg-input-search: rgba(180, 194, 203, 0.2);
+
+$bg-btn-cancel: rgba(92, 114, 134, 0.1);
+$bg-btn-mismatch: rgba(255, 59, 48, 0.1);
+
+$bg-item: #e9f1f7;
+$bg-arrow-pagination: rgba(11, 44, 74, 1);
+$bg-arrow-pagination-hover: rgba(11, 44, 74, 0.8);
+$bg-status-edit: rgba(175, 82, 222, 0.1);
+$bg-filter-data: rgba(229, 232, 238, 1);
+$bg-status-discrepant: rgba(255, 59, 48, 0.1);
+$bg-status-comply: rgba(40, 142, 59, 0.1);
+$txt-status-edit: #af52de;
+
+$bg-avatar: #7fba7a;
+$bg-export: #0d85a8;
+
+$bg-status-done: rgba(11, 44, 74, 0.1);
